@@ -324,7 +324,7 @@ namespace Api.MercadoLivre.Controllers
             if (produto == null) return false;
 
             // Credentials
-            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "lucasvaivoa");
+            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "senha");
             // Mail message
             var mail = new MailMessage()
             {
