@@ -368,7 +368,7 @@ namespace Api.MercadoLivre.Controllers
             var multiForm = new MultipartFormDataContent();
             multiForm.Add(new StringContent(image64), "image");
             multiForm.Add(new StringContent(imagemRecebida.FileName + "_" + Guid.NewGuid().ToString()), "name");
-            var url = "https://api.imgbb.com/1/upload?key=8da220510687693589617194b14c9d43";
+            var url = "https://api.imgbb.com/1/upload?key=keynumber";
             var response = await httpClient.PostAsync(url, multiForm);
 
             if (!response.IsSuccessStatusCode) return null;
