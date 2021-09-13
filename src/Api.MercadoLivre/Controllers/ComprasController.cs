@@ -237,7 +237,7 @@ namespace Api.MercadoLivre.Controllers
             if (vendedor == null) return false;
 
             // Credentials
-            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "lucasvaivoa");
+            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "senha");
 
             // Mail message
             var mail = new MailMessage()
@@ -282,7 +282,7 @@ namespace Api.MercadoLivre.Controllers
             if (pagamentoWithInclude == null) return false;
 
             // Credentials
-            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "lucasvaivoa");
+            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "senha");
 
             // Mail message
             var mail = new MailMessage()
@@ -360,7 +360,7 @@ namespace Api.MercadoLivre.Controllers
 
 
             // Credentials
-            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "lucasvaivoa");
+            var credentials = new NetworkCredential("desafiomercadolivre22@gmail.com", "senha");
 
             // Mail message
             var mail = new MailMessage()
